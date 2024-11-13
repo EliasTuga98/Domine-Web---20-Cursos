@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -80,6 +80,7 @@ body{
 a{
     text-decoration: none;
 }
+
 a.reserva{
     text-transform: uppercase;
     background: #a29750;
@@ -87,4 +88,99 @@ a.reserva{
     padding: 5px 10px;
     float: right;
 
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul#navegacao{
+    float: left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background-color: #fdf6be;
+}
+
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+
+}
+
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+}
+
+.conteudo h2{
+    padding: 5px 0px;
+    color:#7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+.conteudo p{
+    padding: 5px 0px;
+    color:#7d7640;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#area-lateral{
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+#rodape{
+    clear: both;
+    padding: 16px;
+    text-align: center;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    padding: 15px;
+    color: #7d7640; 
+}
+.publicacao{
+   min-height: 120px;
+}
+.publicacao .publicacao-imagem{
+    position: absolute;
+    max-width:150px;
+
+}  
+.publicacao .publicacao-ornamento{
+    position: relative;
+    left: 75%;
+
+} 
+.publicacao h2{
+    position: relative;
+    float: right; 
+    right: 150px;
+}
+
+.publicacao h2,.publicacao span{
+    float: right; 
+    padding-left: 200px;
 }
