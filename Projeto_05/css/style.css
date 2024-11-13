@@ -172,15 +172,14 @@ ul#navegacao a:hover{
 .publicacao .publicacao-ornamento{
     position: relative;
     left: 75%;
+    top: -25px;
 
 } 
 .publicacao h2{
-    position: relative;
-    float: right; 
-    right: 150px;
-}
 
-.publicacao h2,.publicacao span{
+    padding-left: 160px;
+}
+.publicacao span{
     float: right; 
-    padding-left: 200px;
+    padding-left: 160px;
 }
